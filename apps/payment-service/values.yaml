@@ -22,7 +22,7 @@ autoscaling:
   enabled: true
   minReplicas: 3
   maxReplicas: 5
-  targetCPUUtilizationPercentage: 50
+  targetCPUUtilizationPercentage: 90
 
 livenessProbe:
   path: /health
