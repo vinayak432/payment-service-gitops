@@ -1,4 +1,4 @@
-replicaCount: 1
+replicaCount: 2
 
 image:
   repository: 251478238826.dkr.ecr.ap-south-2.amazonaws.com/payment-service
@@ -22,7 +22,7 @@ autoscaling:
   enabled: true
   minReplicas: 3
   maxReplicas: 5
-  targetCPUUtilizationPercentage: 65
+  targetCPUUtilizationPercentage: 50
 
 livenessProbe:
   path: /health
