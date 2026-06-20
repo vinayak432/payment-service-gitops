@@ -4,9 +4,9 @@ image:
   repository: 251478238826.dkr.ecr.ap-south-2.amazonaws.com/payment-service
   tag: "21"
   pullPolicy: Always
-
+  
 service:
-  type: ClusterIP
+  type: LoadBalancer    # was ClusterIP
   port: 80
   targetPort: 5000
 
