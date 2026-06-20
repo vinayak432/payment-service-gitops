@@ -2,7 +2,7 @@ replicaCount: 2
 
 image:
   repository: 251478238826.dkr.ecr.ap-south-2.amazonaws.com/payment-service
-  tag: "23"
+  tag: "24"
   pullPolicy: Always
   
 service:
